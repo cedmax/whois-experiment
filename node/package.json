@@ -1,0 +1,9 @@
+{
+  "name": "node_whois",
+  "version": "0.0.1",
+  "description": "a whois interface in node relying on redis and pub/sub",
+  "dependencies": {
+    "redis": "0.8.2"
+  }
+}
+
