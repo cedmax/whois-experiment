@@ -8,15 +8,15 @@ This is just a personal experiment, there isn't a proper documentation, the foll
 
 ### redis
 
-´´´bash
+```shell
 ~/redis/src/redis-server redis/redis.conf
 ~/redis/src/redis-cli -p 32733
 > MONITOR
-´´´
+```
 
 ### ruby
 
-´´´bash
+```shell
 cd ruby
 export GEM_HOME=$PWD/gem
 export PATH=$PWD/gem/bin:$PATH
@@ -26,11 +26,11 @@ bundle install
 
 irb1.9
 > load "./whois.rb"
-´´´
+```
 
 ### node
 
-´´´bash
+```shell
 cd node
 node whois.js cedmax.com
-´´
+```
